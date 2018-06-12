@@ -1,4 +1,4 @@
-# QR-Code
+# QR-Code Server
 
 ## 概述
 
@@ -8,13 +8,16 @@
 
 ## 例子
 生成的透明背景图片：
+
 ![](https://github.com/tiaod/qrcode-art-server/blob/master/example/qrcode.jpg)
 
 自行使用PS叠加背景图：
+
 ![](https://github.com/tiaod/qrcode-art-server/blob/master/example/avatar1.jpg)
 ![](https://github.com/tiaod/qrcode-art-server/blob/master/example/avatar2.jpg)
 
 甚至制作海报：
+
 ![](https://github.com/tiaod/qrcode-art-server/blob/master/example/gift.jpg)
 ![](https://github.com/tiaod/qrcode-art-server/blob/master/example/poster.jpg)
 

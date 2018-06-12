@@ -9,7 +9,7 @@
 ## 例子
 生成的透明背景图片：
 
-![](https://github.com/tiaod/qrcode-art-server/blob/master/example/qrcode.jpg)
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/qrcode.png)
 
 自行使用PS叠加背景图：
 
@@ -18,7 +18,7 @@
 
 甚至制作海报：
 
-![](https://github.com/tiaod/qrcode-art-server/blob/master/example/gift.jpg)
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/gift.png)
 ![](https://github.com/tiaod/qrcode-art-server/blob/master/example/poster.jpg)
 
 

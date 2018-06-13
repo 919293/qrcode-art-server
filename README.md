@@ -42,7 +42,6 @@ $ python app.py
 ```
 http://localhost:5000/?words=https%3A%2F%2Fgithub.com%2Ftiaod%2Fqrcode-art-server&scale=2
 ```
-相应内容为生成的二维码。
 
 参数：
 - words: 二维码的内容。必填

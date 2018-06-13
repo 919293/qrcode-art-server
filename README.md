@@ -51,8 +51,15 @@ qr = myqr.run(
 qrcode.save('qrcode.png')
 ```
 
-# 使用docker部署：
+## 使用docker部署
 项目提供了Dockerfile，但暂未发布到docker hub
+
+## 赞赏
+如果你觉得项目对你有帮助，欢迎赞赏我
+
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/微信.png)
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/支付宝.png)
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/微信赞赏码.png)
 ​
 ## 协议
 * GPLv3

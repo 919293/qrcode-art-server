@@ -3,12 +3,12 @@ import os
 from MyQR import myqr
 import io
 
-def run(request: http.Request,words,scale=1,level='L'):
+def run(request: http.Request,words,scale=1,version=1,level='L'):
     try:
         qr = myqr.run(
         	words,
             scale=int(scale),
-            version=1,
+            version=int(version),
             level=level)
         imgByteArr = io.BytesIO()
         qr.save(imgByteArr, format='PNG')

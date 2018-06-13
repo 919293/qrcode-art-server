@@ -9,7 +9,7 @@
 ## 例子
 生成的透明背景图片：
 
-![](https://github.com/tiaod/qrcode-art-server/blob/master/example/qrcode.png)
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/newqr.png)
 
 自行使用PS叠加背景图：
 
@@ -18,8 +18,12 @@
 
 甚至制作海报：
 
-![](https://github.com/tiaod/qrcode-art-server/blob/master/example/gift.png)
-![](https://github.com/tiaod/qrcode-art-server/blob/master/example/poster.jpg)
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/poster3.jpg)
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/poster1.jpg)
+
+你也可以手动调节二维码的透明度，让海报看起来更自然：
+
+![](https://github.com/tiaod/qrcode-art-server/blob/master/example/poster2.jpg)
 
 
 ## http接口调用
@@ -33,6 +37,7 @@ http://localhost:5000/?words=https%3A%2F%2Fgithub.com%2Ftiaod%2Fqrcode-art-serve
 - words: 二维码的内容
 - scale: 缩放倍数，只支持整数。默认为 1
 - level: 纠错等级，默认为 L
+- version: 支持1~40的整数，用于调节二维码尺寸。默认为自适应，根据长度调整
 
 
 ## 编程调用
@@ -47,7 +52,7 @@ qrcode.save('qrcode.png')
 ```
 
 # 使用docker部署：
-项目提供了Dockerfile，暂未发布到docker hub
+项目提供了Dockerfile，但暂未发布到docker hub
 ​
 ## 协议
 * GPLv3

@@ -3,6 +3,7 @@
 ## 概述
 
 基于 https://github.com/sylnsfar/qrcode 进行开发，修复多进程下tempdir的问题，并将该工具制作成http服务。
+
 与原项目不同，本项目生成的二维码**不填充背景图**，直接返回**透明背景的二维码**。生成的二维码为PNG格式，你可以使用PS等工具自行添加背景图，或者制作动图。与直接返回成品二维码相比，返回PNG格式的素材在使用上更加灵活和自由。
 
 由于原项目使用GPLv3协议，所以本项目也根据GPLv3协议进行开源。
@@ -64,7 +65,9 @@ qr.save('qrcode.png')
 ```
 
 ## 使用docker部署
-项目提供了Dockerfile，但暂未发布到docker hub
+```
+$ docker run -p 5000:5000 tiaod/qrcode-art-server
+```
 
 ## 赞赏
 如果你觉得项目对你有帮助，欢迎赞赏我
